@@ -1,8 +1,8 @@
-# EUKIS Engineering Dashboard
+# TRASAKI Engineering Dashboard
 
-This document tracks the engineering status of the EUKIS platform being built at Jitech.
+This document tracks the engineering status of the TRASAKI platform being built at Jitech.
 
-EUKIS is a local-first marketplace platform designed to evolve into a scalable cloud-native product, using modern engineering practices, platform engineering, DevOps, and system design.
+TRASAKI is a local-first marketplace platform designed to evolve into a scalable cloud-native product, using modern engineering practices, platform engineering, DevOps, and system design.
 
 Status legend:
 
@@ -161,7 +161,7 @@ Certifications in Progress | 🚧 In Progress | AWS SAA currently in progress |
 
 # 11. Current Priorities
 
-Current engineering priorities for EUKIS:
+Current engineering priorities for TRASAKI:
 
 1. Define repository strategy
 2. Structure Terraform and Terragrunt foundation
@@ -185,6 +185,6 @@ Create first deployable service template | 📅 Planned |
 
 # 13. Long-Term Engineering Goal
 
-The long-term goal of EUKIS is to become a scalable marketplace platform built with strong cloud-native engineering principles, platform engineering practices, secure software delivery, and architecture discipline.
+The long-term goal of TRASAKI is to become a scalable marketplace platform built with strong cloud-native engineering principles, platform engineering practices, secure software delivery, and architecture discipline.
 
 This dashboard will evolve as the platform matures.

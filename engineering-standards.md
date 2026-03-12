@@ -1,6 +1,6 @@
-# EUKIS Engineering Standards
+# trasaki Engineering Standards
 
-This document defines the engineering standards used in the EUKIS platform, a product developed by Jitech.
+This document defines the engineering standards used in the trasaki platform, a product developed by Jitech.
 
 The goal of these standards is to ensure:
 
@@ -16,7 +16,7 @@ These standards will evolve as the platform grows.
 
 # 1. Engineering Principles
 
-The EUKIS platform follows these engineering principles:
+The trasaki platform follows these engineering principles:
 
 • Cloud-native architecture  
 • Infrastructure as Code  
@@ -32,7 +32,7 @@ All systems must be designed to be reproducible, automated, and observable.
 
 # 2. Repository Strategy
 
-The EUKIS platform uses a **multi-repository strategy**.
+The trasaki platform uses a **multi-repository strategy**.
 
 Each major component lives in its own repository.
 
@@ -40,35 +40,35 @@ Example structure:
 
 Frontend
 
-eukis-frontend
+trasaki-frontend
 
 
 Backend services
 
 
-eukis-catalog-service
-eukis-user-service
-eukis-listing-service
-eukis-search-service
+trasaki-catalog-service
+trasaki-user-service
+trasaki-listing-service
+trasaki-search-service
 
 
 Infrastructure
 
 
-eukis-infra-modules
-eukis-infra-live
+trasaki-infra-modules
+trasaki-infra-live
 
 
 Platform engineering
 
 
-eukis-platform
+trasaki-platform
 
 
 Architecture documentation
 
 
-eukis-architecture
+trasaki-architecture
 
 
 ---
@@ -78,30 +78,30 @@ eukis-architecture
 All repositories follow this pattern:
 
 
-eukis-<component>
+trasaki-<component>
 
 
 Examples:
 
 
-eukis-frontend
-eukis-catalog-service
-eukis-user-service
-eukis-platform
-eukis-architecture
+trasaki-frontend
+trasaki-catalog-service
+trasaki-user-service
+trasaki-platform
+trasaki-architecture
 
 
 Infrastructure repositories follow:
 
 
-eukis-infra-<scope>
+trasaki-infra-<scope>
 
 
 Examples:
 
 
-eukis-infra-modules
-eukis-infra-live
+trasaki-infra-modules
+trasaki-infra-live
 
 
 ---
@@ -274,7 +274,7 @@ Images will be stored in a container registry.
 
 # 10. Kubernetes Standards
 
-The EUKIS platform runs on Kubernetes.
+The trasaki platform runs on Kubernetes.
 
 Packaging tool:
 
@@ -377,7 +377,7 @@ Code
 
 Engineering culture is as important as technology.
 
-The EUKIS platform values:
+The trasaki platform values:
 
 • learning in public  
 • documentation  
